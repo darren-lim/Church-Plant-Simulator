@@ -17,6 +17,7 @@ public class Calendar : MonoBehaviour
         }
     }
     public Date currDate;
+    public Event[] Events;
     // Start is called before the first frame update
     void Start()
     {

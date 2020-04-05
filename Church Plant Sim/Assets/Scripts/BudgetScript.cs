@@ -35,4 +35,9 @@ public class BudgetScript : MonoBehaviour
     {
         WeeklyRevenue = 0f;
     }
+
+    public float returnMoney()
+    {
+        return TotalMoney;
+    }
 }
