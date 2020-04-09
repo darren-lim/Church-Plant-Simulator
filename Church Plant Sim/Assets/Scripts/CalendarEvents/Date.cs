@@ -2,13 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Date : MonoBehaviour
+[System.Serializable]
+public class Date
 {
-    // 30 Days in a month
-    public int Day;
+    // 28 Days in a month
+    // Keeping it exactly 4 weeks in a month
+    public int Day { get; set; }
     // 12 Months in a year
-    public int Month;
-    public int Year;
+    public int Month { get; set; }
+    public int Year { get; set; }
+
+    public Date()
+    {
+        Day = 1;
+        Month = 1;
+        Year = 2000;
+    }
 
     public Date(int m, int d, int y)
     {
@@ -31,21 +40,13 @@ public class Date : MonoBehaviour
         Year = Mathf.Abs(y);
     }
 
-    public void AddOneDay()
+    // Returns Date in an integer array
+    public int[] ReturnDate()
     {
-        Day += 1;
-        if (Day > 30)
-        {
-            Day = 1;
-            Month += 1;
-            if (Month > 12)
-            {
-                Month = 1;
-                Year += 1;
-            }
-        }
+        return new int[3] { Day, Month, Year };
     }
 
+    // Date to string output
     public override string ToString()
     {
         return Month.ToString() + "/" + Day.ToString() + "/" + Year.ToString();

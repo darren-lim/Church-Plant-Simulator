@@ -24,4 +24,9 @@ public class Event : MonoBehaviour
     {
 
     }
+
+    public string ReturnEventDate()
+    {
+        return eventDate.ToString();
+    }
 }
