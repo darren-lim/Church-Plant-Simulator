@@ -8,6 +8,7 @@ public class BudgetScript : MonoBehaviour
     public float TotalMoney = 1000f;
     public float WeeklyRevenue = 0f;
     public float BaseWeeklyProfit = 500f;
+    public bool hasBeenBailed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,18 @@ public class BudgetScript : MonoBehaviour
     {
         TotalMoney -= money;
         WeeklyRevenue -= money;
+
+        if (TotalMoney < 0 && !hasBeenBailed)
+        {
+            // we want to let the player know they have no money
+            // but they can be bailed out
+        }
+        else if (TotalMoney < 0 && hasBeenBailed)
+        {
+            // if they do not make enough by the end of the week
+            // game over
+        }
+
         budgetUIUpdate();
     }
 
@@ -50,5 +63,10 @@ public class BudgetScript : MonoBehaviour
     public float returnMoney()
     {
         return TotalMoney;
+    }
+
+    public void bailedOut()
+    {
+        hasBeenBailed = true;
     }
 }
