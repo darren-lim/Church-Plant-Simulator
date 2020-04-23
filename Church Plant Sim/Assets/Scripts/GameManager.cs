@@ -43,16 +43,17 @@ public class GameManager : MonoBehaviour
         while (Application.isPlaying)
         {
             yield return new WaitForSeconds(1f);
-            GameEvents.instance.NextDayEvent();
             if (isSunday)
             {
                 Debug.Log("It's Sunday");
+                yield return new WaitForSeconds(10f);
                 isSunday = false;
             }
             else
             {
                 Debug.Log("Weekday");
             }
+            GameEvents.instance.NextDayEvent();
         }
     }
 

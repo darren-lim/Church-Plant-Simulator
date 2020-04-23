@@ -49,6 +49,10 @@ public class Calendar : MonoBehaviour
         {
             newWeek();
         }
+        else if (currDate.Day % 7 == 2)
+        {
+            weekDayStart();
+        }
         if (currDate.Day > DaysInMonth)
         {
             currDate.Day = 1;
@@ -68,8 +72,14 @@ public class Calendar : MonoBehaviour
     public void newWeek()
     {
         weekNum += 1;
-        // This event will only let the Game Manager know it is a new week
+        // This event will only let the Game Manager know it is a new week sunday
         GameEvents.instance.SundayEvent();
+    }
+
+    public void weekDayStart()
+    {
+        // new week day, its a monday!
+        GameEvents.instance.WeekdayStartEvent();
     }
 
     public string returnCurrDate()
