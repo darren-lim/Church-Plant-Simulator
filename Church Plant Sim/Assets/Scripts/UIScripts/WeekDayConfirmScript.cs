@@ -8,7 +8,9 @@ public class WeekDayConfirmScript : MonoBehaviour
 {
     public GameObject weekDayUI;
     public GameObject danceUI;
-    public TMP_Dropdown classDropdown;
+
+    public int unallocPoints = 5;
+    public TextMeshProUGUI pointsText;
 
     // Start is called before the first frame update
     void Start()
@@ -23,42 +25,41 @@ public class WeekDayConfirmScript : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        unallocPoints = 5;
+        pointsText.text = "5";
+    }
+
     public void confirmButton()
     {
-        switch (classDropdown.value)
+        if(!HasPoints())
+            disableWeekDay();
+    }
+
+    public bool HasPoints()
+    {
+        if (unallocPoints > 0)
+            return true;
+        return false;
+    }
+
+    public void SubTotalPoints()
+    {
+        if(unallocPoints>0)
         {
-            case 0:
-                // add some effect to dropdown
-                Debug.Log("Choose an option");
-                break;
-            // music
-            case 1:
-                // add some exp to this skill
-                disableWeekDay();
-                break;
-
-            // fellowship
-            case 2:
-                disableWeekDay();
-                break;
-
-            // Teaching
-            case 3:
-                disableWeekDay();
-                break;
-
-            // Serving
-            case 4:
-                disableWeekDay();
-                break;
-
-            // Spirituality
-            case 5:
-                disableWeekDay();
-                break;
-
+            unallocPoints--;
+            pointsText.text = unallocPoints.ToString();
         }
-        Debug.Log(classDropdown.value);
+    }
+
+    public void AddTotalPoints()
+    {
+        if(unallocPoints<5)
+        {
+            unallocPoints++;
+            pointsText.text = unallocPoints.ToString();
+        }
     }
 
     // subscribe to weekday event
