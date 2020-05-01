@@ -13,10 +13,13 @@ public class Character : MonoBehaviour
     public float Music;
     public float Fellowship;
     public float Teaching;
+
     [Header("Spiritual Skills")]
     public float Serving;
     public float Spirituality;
 
+    [Header("Max Amount of Skill Points")]
+    public float maxPoints;
 
     public void Move()
     {
@@ -45,57 +48,62 @@ public class Character : MonoBehaviour
 
     public void AddMusic(float value)
     {
-        if (Music < 10)
+        if (Music < maxPoints)
         {
             Music += value;
-            if (Music > 10)
+            if (Music > maxPoints)
             {
-                Music = 10;
+                Music = maxPoints;
             }
         }
     }
     public void AddFellowship(float value)
     {
-        if (Fellowship < 10)
+        if (Fellowship < maxPoints)
         {
             Fellowship += value;
-            if (Fellowship > 10)
+            if (Fellowship > maxPoints)
             {
-                Fellowship = 10;
+                Fellowship = maxPoints;
             }
         }
     }
     public void AddTeaching(float value)
     {
-        if (Music < 10)
+        if (Teaching < maxPoints)
         {
-            Music += value;
-            if (Music > 10)
+            Teaching += value;
+            if (Teaching > maxPoints)
             {
-                Music = 10;
+                Teaching = maxPoints;
             }
         }
     }
     public void AddServing(float value)
     {
-        if (Serving < 10)
+        if (Serving < maxPoints)
         {
             Serving += value;
-            if (Serving > 10)
+            if (Serving > maxPoints)
             {
-                Serving = 10;
+                Serving = maxPoints;
             }
         }
     }
     public void AddSpirit(float value)
     {
-        if (Spirituality < 10)
+        if (Spirituality < maxPoints)
         {
             Spirituality += value;
-            if (Spirituality > 10)
+            if (Spirituality > maxPoints)
             {
-                Spirituality = 10;
+                Spirituality = maxPoints;
             }
         }
+    }
+
+    public float GetMaxPoints()
+    {
+        return maxPoints;
     }
 }

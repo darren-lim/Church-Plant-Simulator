@@ -12,6 +12,8 @@ public class WeekDayConfirmScript : MonoBehaviour
     public int unallocPoints = 5;
     public TextMeshProUGUI pointsText;
 
+    public AddSubButtonsWD[] pointsList;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,16 +27,13 @@ public class WeekDayConfirmScript : MonoBehaviour
         
     }
 
-    private void OnEnable()
-    {
-        unallocPoints = 5;
-        pointsText.text = "5";
-    }
-
     public void confirmButton()
     {
         if(!HasPoints())
+        {
+            GameEvents.instance.WeekdayConfirmEvent();
             disableWeekDay();
+        }
     }
 
     public bool HasPoints()
@@ -66,6 +65,8 @@ public class WeekDayConfirmScript : MonoBehaviour
     public void enableWeekday()
     {
         weekDayUI.SetActive(true);
+        unallocPoints = 5;
+        pointsText.text = "5";
         Debug.Log("Weekday Start");
         Time.timeScale = 0;
     }

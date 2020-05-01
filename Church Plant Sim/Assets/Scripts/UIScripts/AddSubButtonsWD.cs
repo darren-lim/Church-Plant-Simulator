@@ -10,24 +10,27 @@ using TMPro;
  * Mainly Weekday Use (WD = WeekDay)
  * 
  */
-public class AddSubButtonsWD : MonoBehaviour
-{
+public class AddSubButtonsWD : MonoBehaviour {
     public WeekDayConfirmScript weekdayScript;
     public TextMeshProUGUI skillPointText;
     public int points = 0;
+
+    [Header("Skill name must be full name ex. Spirituality")]
+    public string skillName;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        if(skillPointText == null)
+        if (skillPointText == null)
         {
             Debug.Log("Please Assign skill points text");
         }
-        if(weekdayScript == null)
+        if (weekdayScript == null)
         {
             Debug.Log("Please Assign week day confirm script");
         }
+        GameEvents.instance.onWeekdayConfirmEvent += AddSkills;
     }
 
     private void OnEnable()
@@ -54,5 +57,10 @@ public class AddSubButtonsWD : MonoBehaviour
             points--;
             skillPointText.text = points.ToString();
         }
+    }
+
+    public void AddSkills()
+    {
+        PDanScript.instance.UpdateSkill(skillName, points);
     }
 }

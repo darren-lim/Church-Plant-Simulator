@@ -30,7 +30,7 @@ public class Calendar : MonoBehaviour
     void Start()
     {
         GameEvents.instance.onNextDayEvent += nextDay;
-        currDate = new Date(1, 1, 2000);
+        currDate = new Date(dayNum, monthNum, yearNum);
         Debug.Log(currDate.ToString());
     }
 
