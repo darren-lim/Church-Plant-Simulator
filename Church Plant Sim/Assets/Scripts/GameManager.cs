@@ -12,6 +12,12 @@ public class GameManager : MonoBehaviour
     [Header("Game Boolean Values")]
     public bool gameStart = false;
     public bool isSunday = true;
+
+    [Header("Time Values")]
+    public float sundayDuration = 10f;
+    public float weekdayDuration = 1f;
+
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -27,7 +33,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Debug.Log("Start");
         GameEvents.instance.onSundayEvent += itIsSunday;
         StartCoroutine(NextDayCountdown());
     }
@@ -42,16 +47,16 @@ public class GameManager : MonoBehaviour
     {
         while (Application.isPlaying)
         {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(weekdayDuration);
             if (isSunday)
             {
                 Debug.Log("It's Sunday");
-                yield return new WaitForSeconds(10f);
+                yield return new WaitForSeconds(sundayDuration);
                 isSunday = false;
             }
             else
             {
-                Debug.Log("Weekday");
+                // weekday
             }
             GameEvents.instance.NextDayEvent();
         }

@@ -3031,7 +3031,6 @@ GameObject:
   - component: {fileID: 5487962291852303663}
   - component: {fileID: 5487962291852303656}
   - component: {fileID: 5487962291852303657}
-  - component: {fileID: 5487962291852303661}
   m_Layer: 5
   m_Name: SetAmountUI
   m_TagString: Untagged
@@ -3126,23 +3125,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5487962291852303661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5487962291852303658}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cf4da9f4a57f0840bb8b4e978ffa843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weekDayUI: {fileID: 5487962291852303658}
-  danceUI: {fileID: 5487962292816431465}
-  unallocPoints: 5
-  pointsText: {fileID: 5487962290751058910}
-  pointsList: []
 --- !u!1 &5487962291872272369
 GameObject:
   m_ObjectHideFlags: 0

@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameStart: 0
   isSunday: 1
+  sundayDuration: 10
+  weekdayDuration: 1
 --- !u!114 &1967367098
 MonoBehaviour:
   m_ObjectHideFlags: 0

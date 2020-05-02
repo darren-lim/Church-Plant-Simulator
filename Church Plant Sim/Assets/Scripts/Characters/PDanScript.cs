@@ -19,11 +19,16 @@ public class PDanScript : Character
     // Start is called before the first frame update
     void Start()
     {
-        Music = 0f;
-        Fellowship = 0f;
-        Teaching = 0f;
-        Spirituality = 0f;
-        Serving = 0f;
+        Music = 1f;
+        Fellowship = 1f;
+        Teaching = 1f;
+        Spirituality = 1f;
+        Serving = 1f;
+        animator = GetComponent<Animator>();
+        if (movePoints.Length == 0)
+            Debug.Log("PLEASE ADD MOVE POINTS");
+        this.transform.position = movePoints[0].position;
+        StartCoroutine(Move());
     }
 
     // Update is called once per frame

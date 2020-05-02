@@ -12,7 +12,7 @@ public class WeekDayConfirmScript : MonoBehaviour
     public int unallocPoints = 5;
     public TextMeshProUGUI pointsText;
 
-    public AddSubButtonsWD[] pointsList;
+    // public AddSubButtonsWD[] pointsList;
 
     // Start is called before the first frame update
     void Start()
