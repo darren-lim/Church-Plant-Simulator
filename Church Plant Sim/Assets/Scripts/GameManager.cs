@@ -17,6 +17,13 @@ public class GameManager : MonoBehaviour
     public float sundayDuration = 10f;
     public float weekdayDuration = 1f;
 
+    [Header("Components")]
+    public SliderChangeScript sliders;
+
+    [Header("Number Values")]
+    public float burnoutChangeValue;
+    public float moodChangeValue;
+
 
     private void Awake()
     {
@@ -33,7 +40,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        // Starting values
+        sliders = GetComponent<SliderChangeScript>();
+        burnoutChangeValue = 2f;
+        moodChangeValue = 2f;
+
+        // Game events
         GameEvents.instance.onSundayEvent += itIsSunday;
+
+        // Start the game loop
         StartCoroutine(NextDayCountdown());
     }
 
@@ -50,9 +65,15 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(weekdayDuration);
             if (isSunday)
             {
+                // add beginning of sunday values
+
                 Debug.Log("It's Sunday");
                 yield return new WaitForSeconds(sundayDuration);
                 isSunday = false;
+
+                // add end of the sunday values
+                sliders.SetBurnoutSlider(sliders.GetBurnoutValue() + burnoutChangeValue);
+                sliders.SetMoodSlider(sliders.GetMoodValue() - moodChangeValue);
             }
             else
             {

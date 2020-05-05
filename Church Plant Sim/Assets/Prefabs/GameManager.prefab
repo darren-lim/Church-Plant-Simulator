@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 714995225085683924}
   - component: {fileID: 714995225085683927}
   - component: {fileID: 1967367098}
+  - component: {fileID: 714995224113264536}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -48,6 +49,9 @@ MonoBehaviour:
   isSunday: 1
   sundayDuration: 10
   weekdayDuration: 1
+  sliders: {fileID: 714995224113264536}
+  burnoutValue: 0
+  moodValue: 0
 --- !u!114 &1967367098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,3 +68,20 @@ MonoBehaviour:
   WeeklyRevenue: 0
   BaseWeeklyProfit: 500
   hasBeenBailed: 0
+--- !u!114 &714995224113264536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714995225085683926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee75f46978eb6834d9d82def7bfd3db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  burnoutSlider: {fileID: 0}
+  moodSlider: {fileID: 0}
+  burnVal: 1
+  moodVal: 100
+  maxVal: 100

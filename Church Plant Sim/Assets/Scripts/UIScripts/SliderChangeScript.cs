@@ -6,21 +6,19 @@ using TMPro;
 
 public class SliderChangeScript : MonoBehaviour
 {
-    public Slider slider1;
-    public Slider slider2;
-    public TextMeshProUGUI s1Percent;
-    public TextMeshProUGUI s2Percent;
+    public Slider burnoutSlider;
+    public Slider moodSlider;
 
-    public float s1Val;
-    public float s2Val;
+    public float burnVal;
+    public float moodVal;
     public float maxVal;
 
     // Start is called before the first frame update
     void Start()
     {
         maxVal = 100f;
-        s1Val = 50f;
-        s2Val = 50f;
+        burnVal = 1f;
+        moodVal = 100f;
     }
 
     // Update is called once per frame
@@ -31,36 +29,46 @@ public class SliderChangeScript : MonoBehaviour
 
     private void OnEnable()
     {
-        s1Val = slider1.value;
-        s2Val = slider2.value;
-
-        slider1.onValueChanged.AddListener(ChangeSermonValue);
-        ChangeSermonValue(slider1.value);
-
-        slider2.onValueChanged.AddListener(ChangeClassValue);
-        ChangeClassValue(slider2.value);
+        burnVal = burnoutSlider.value;
+        moodVal = moodSlider.value;
     }
 
+    public void SetBurnoutSlider(float value)
+    {
+        if (value > 100)
+            value = 100;
+        else if (value < 0)
+            value = 0;
+        burnVal = value;
+        burnoutSlider.value = burnVal;
+    }
+
+    public void SetMoodSlider(float value)
+    {
+        if (value > 100)
+            value = 100;
+        else if (value < 0)
+            value = 0;
+        moodVal = value;
+        moodSlider.value = moodVal;
+    }
+
+    public float GetBurnoutValue()
+    {
+        return burnVal;
+    }
+
+    public float GetMoodValue()
+    {
+        return moodVal;
+    }
+
+    /***
     void OnDisable()
     {
-        slider1.onValueChanged.RemoveAllListeners();
-        slider2.onValueChanged.RemoveAllListeners();
+        burnoutSlider.onValueChanged.RemoveAllListeners();
+        moodSlider.onValueChanged.RemoveAllListeners();
     }
+    ***/
 
-    private void ChangeSermonValue(float value)
-    {
-        s1Percent.text = value.ToString() + "%";
-        float oppositeVal = maxVal - value;
-        s2Percent.text = oppositeVal.ToString() + "%";
-        slider2.value = oppositeVal;
-    }
-
-    private void ChangeClassValue(float value)
-    {
-        s2Percent.text = value.ToString() + "%";
-        float oppositeVal = maxVal - value;
-        s1Percent.text = oppositeVal.ToString() + "%";
-        slider1.value = oppositeVal;
-
-    }
 }
