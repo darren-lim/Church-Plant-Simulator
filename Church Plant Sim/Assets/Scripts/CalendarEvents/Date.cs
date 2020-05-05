@@ -22,20 +22,10 @@ public class Date
     public Date(int m, int d, int y)
     {
         // day
-        if (d > 30)
-            Day = d % 30;
-        else if (d < 1)
-            Day = 1;
-        else
-            Day = d;
+        Day = d;
 
         // month
-        if (m > 12)
-            Month = 12 % m;
-        else if (m < 1)
-            Month = 1;
-        else
-            Month = m;
+        Month = m;
 
         Year = Mathf.Abs(y);
     }

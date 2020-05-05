@@ -26,6 +26,8 @@ public class GameEvents : MonoBehaviour
     }
     public event Action onNextDayEvent;
     public event Action onSundayEvent;
+    public event Action onWeekdayStartEvent;
+    public event Action onWeekdayConfirmEvent;
     public void NextDayEvent()
     {
         if (onNextDayEvent != null)
@@ -39,6 +41,22 @@ public class GameEvents : MonoBehaviour
         if (onSundayEvent != null)
         {
             onSundayEvent();
+        }
+    }
+
+    public void WeekdayStartEvent()
+    {
+        if (onWeekdayStartEvent != null)
+        {
+            onWeekdayStartEvent();
+        }
+    }
+
+    public void WeekdayConfirmEvent()
+    {
+        if (onWeekdayConfirmEvent != null)
+        {
+            onWeekdayConfirmEvent();
         }
     }
 }

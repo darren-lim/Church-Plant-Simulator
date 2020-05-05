@@ -1,0 +1,3362 @@
+fileFormatVersion: 2
+guid: be40f3f87dce47a4a96d7bcfa424e945
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7825334004951757859
+    second: NoahDanceSpriteSheet_0
+  - first:
+      213: 3420327830857385323
+    second: NoahDanceSpriteSheet_1
+  - first:
+      213: 8014025596685865156
+    second: NoahDanceSpriteSheet_2
+  - first:
+      213: -3687535488001778714
+    second: NoahDanceSpriteSheet_3
+  - first:
+      213: -3054060313891780007
+    second: NoahDanceSpriteSheet_4
+  - first:
+      213: 6525077071631658709
+    second: NoahDanceSpriteSheet_5
+  - first:
+      213: 4766942603744192451
+    second: NoahDanceSpriteSheet_6
+  - first:
+      213: 6035462250239599980
+    second: NoahDanceSpriteSheet_7
+  - first:
+      213: 5640247561502770252
+    second: NoahDanceSpriteSheet_8
+  - first:
+      213: -1077267155972660688
+    second: NoahDanceSpriteSheet_9
+  - first:
+      213: -4308801504385277601
+    second: NoahDanceSpriteSheet_10
+  - first:
+      213: 49790234358734046
+    second: NoahDanceSpriteSheet_11
+  - first:
+      213: -5883358899115934147
+    second: NoahDanceSpriteSheet_12
+  - first:
+      213: -3606897051293023886
+    second: NoahDanceSpriteSheet_13
+  - first:
+      213: -8387476541841218246
+    second: NoahDanceSpriteSheet_14
+  - first:
+      213: -6462349665407442421
+    second: NoahDanceSpriteSheet_15
+  - first:
+      213: -8249430950146469445
+    second: NoahDanceSpriteSheet_16
+  - first:
+      213: 1685912280098104256
+    second: NoahDanceSpriteSheet_17
+  - first:
+      213: -8851275529878272739
+    second: NoahDanceSpriteSheet_18
+  - first:
+      213: -1089493038779842289
+    second: NoahDanceSpriteSheet_19
+  - first:
+      213: -421421113758199599
+    second: NoahDanceSpriteSheet_20
+  - first:
+      213: -5261915658696253145
+    second: NoahDanceSpriteSheet_21
+  - first:
+      213: 7333918736312148247
+    second: NoahDanceSpriteSheet_22
+  - first:
+      213: -1633624902528628906
+    second: NoahDanceSpriteSheet_23
+  - first:
+      213: -5271203026916986798
+    second: NoahDanceSpriteSheet_24
+  - first:
+      213: -3468538634376159555
+    second: NoahDanceSpriteSheet_25
+  - first:
+      213: 5113553663984841609
+    second: NoahDanceSpriteSheet_26
+  - first:
+      213: -3554998189272428560
+    second: NoahDanceSpriteSheet_27
+  - first:
+      213: 3962317081153336311
+    second: NoahDanceSpriteSheet_28
+  - first:
+      213: -6036242672718851132
+    second: NoahDanceSpriteSheet_29
+  - first:
+      213: 5409557301364368803
+    second: NoahDanceSpriteSheet_30
+  - first:
+      213: -4883419416819568480
+    second: NoahDanceSpriteSheet_31
+  - first:
+      213: -4387950142711790351
+    second: NoahDanceSpriteSheet_32
+  - first:
+      213: 4416970337313571267
+    second: NoahDanceSpriteSheet_33
+  - first:
+      213: 3386683553121431193
+    second: NoahDanceSpriteSheet_34
+  - first:
+      213: 4890496032945511713
+    second: NoahDanceSpriteSheet_35
+  - first:
+      213: 7507570546394620351
+    second: NoahDanceSpriteSheet_36
+  - first:
+      213: 4448130003833326314
+    second: NoahDanceSpriteSheet_37
+  - first:
+      213: -950162588959045567
+    second: NoahDanceSpriteSheet_38
+  - first:
+      213: 574110306435574699
+    second: NoahDanceSpriteSheet_39
+  - first:
+      213: 4479325747277420529
+    second: NoahDanceSpriteSheet_40
+  - first:
+      213: 8368599328811594885
+    second: NoahDanceSpriteSheet_41
+  - first:
+      213: 3729694297597019302
+    second: NoahDanceSpriteSheet_42
+  - first:
+      213: -4011703155375605877
+    second: NoahDanceSpriteSheet_43
+  - first:
+      213: 8658360073633401252
+    second: NoahDanceSpriteSheet_44
+  - first:
+      213: 5880274995247659329
+    second: NoahDanceSpriteSheet_45
+  - first:
+      213: 7655297690259334285
+    second: NoahDanceSpriteSheet_46
+  - first:
+      213: 6264878967681815114
+    second: NoahDanceSpriteSheet_47
+  - first:
+      213: -7817486765699902893
+    second: NoahDanceSpriteSheet_48
+  - first:
+      213: -5188328954803237649
+    second: NoahDanceSpriteSheet_49
+  - first:
+      213: -4051539537835192542
+    second: NoahDanceSpriteSheet_50
+  - first:
+      213: -189146689154474697
+    second: NoahDanceSpriteSheet_51
+  - first:
+      213: -466803066630246282
+    second: NoahDanceSpriteSheet_52
+  - first:
+      213: -4330258684170099737
+    second: NoahDanceSpriteSheet_53
+  - first:
+      213: -2472429057212445454
+    second: NoahDanceSpriteSheet_54
+  - first:
+      213: -3787987913534233533
+    second: NoahDanceSpriteSheet_55
+  - first:
+      213: 7963270500301635307
+    second: NoahDanceSpriteSheet_56
+  - first:
+      213: -5577206794817310632
+    second: NoahDanceSpriteSheet_57
+  - first:
+      213: -1004753625235016560
+    second: NoahDanceSpriteSheet_58
+  - first:
+      213: -3773392497696349521
+    second: NoahDanceSpriteSheet_59
+  - first:
+      213: -4106018764834070155
+    second: NoahDanceSpriteSheet_60
+  - first:
+      213: 6599806394988324288
+    second: NoahDanceSpriteSheet_61
+  - first:
+      213: -4868599086477979089
+    second: NoahDanceSpriteSheet_62
+  - first:
+      213: 2845987790202758531
+    second: NoahDanceSpriteSheet_63
+  - first:
+      213: -369706388287186739
+    second: NoahDanceSpriteSheet_64
+  - first:
+      213: 1133254972086573796
+    second: NoahDanceSpriteSheet_65
+  - first:
+      213: -6396975434393530542
+    second: NoahDanceSpriteSheet_66
+  - first:
+      213: -8476022137051609673
+    second: NoahDanceSpriteSheet_67
+  - first:
+      213: 3312413891035408123
+    second: NoahDanceSpriteSheet_68
+  - first:
+      213: 3417590964661041710
+    second: NoahDanceSpriteSheet_69
+  - first:
+      213: 5544109772431735297
+    second: NoahDanceSpriteSheet_70
+  - first:
+      213: -2825752017303133353
+    second: NoahDanceSpriteSheet_71
+  - first:
+      213: -1604410596717094406
+    second: NoahDanceSpriteSheet_72
+  - first:
+      213: 3280687567088838904
+    second: NoahDanceSpriteSheet_73
+  - first:
+      213: 6470542329887461696
+    second: NoahDanceSpriteSheet_74
+  - first:
+      213: 8494949691729776644
+    second: NoahDanceSpriteSheet_75
+  - first:
+      213: 8280524372803622082
+    second: NoahDanceSpriteSheet_76
+  - first:
+      213: -1069039200293409721
+    second: NoahDanceSpriteSheet_77
+  - first:
+      213: 1876845328903033330
+    second: NoahDanceSpriteSheet_78
+  - first:
+      213: 196107862801744051
+    second: NoahDanceSpriteSheet_79
+  - first:
+      213: -7684946797311961431
+    second: NoahDanceSpriteSheet_80
+  - first:
+      213: -9080313309339204869
+    second: NoahDanceSpriteSheet_81
+  - first:
+      213: -7602794820723844981
+    second: NoahDanceSpriteSheet_82
+  - first:
+      213: 6717370565026705897
+    second: NoahDanceSpriteSheet_83
+  - first:
+      213: 6601488771505924975
+    second: NoahDanceSpriteSheet_84
+  - first:
+      213: -6545429313672479329
+    second: NoahDanceSpriteSheet_85
+  - first:
+      213: 4156178890202501844
+    second: NoahDanceSpriteSheet_86
+  - first:
+      213: 4749977561751816043
+    second: NoahDanceSpriteSheet_87
+  - first:
+      213: 3106338602071604504
+    second: NoahDanceSpriteSheet_88
+  - first:
+      213: 1323191265252076324
+    second: NoahDanceSpriteSheet_89
+  - first:
+      213: -5972841665212570961
+    second: NoahDanceSpriteSheet_90
+  - first:
+      213: -4889156088096322272
+    second: NoahDanceSpriteSheet_91
+  - first:
+      213: 4979066600716589355
+    second: NoahDanceSpriteSheet_92
+  - first:
+      213: -3097065532552300404
+    second: NoahDanceSpriteSheet_93
+  - first:
+      213: -8934588580418523221
+    second: NoahDanceSpriteSheet_94
+  - first:
+      213: -8606403400715560064
+    second: NoahDanceSpriteSheet_95
+  - first:
+      213: -5478700664939109995
+    second: NoahDanceSpriteSheet_96
+  - first:
+      213: 5432692652426987689
+    second: NoahDanceSpriteSheet_97
+  - first:
+      213: -3399402572774735068
+    second: NoahDanceSpriteSheet_98
+  - first:
+      213: -7666859666491185559
+    second: NoahDanceSpriteSheet_99
+  - first:
+      213: 1613696443890284314
+    second: NoahDanceSpriteSheet_100
+  - first:
+      213: 5323244655380064812
+    second: NoahDanceSpriteSheet_101
+  - first:
+      213: -3611773938070367561
+    second: NoahDanceSpriteSheet_102
+  - first:
+      213: 6377730856993779830
+    second: NoahDanceSpriteSheet_103
+  - first:
+      213: 6566353398643717057
+    second: NoahDanceSpriteSheet_104
+  - first:
+      213: -8439384042866011144
+    second: NoahDanceSpriteSheet_105
+  - first:
+      213: 2146355595979282701
+    second: NoahDanceSpriteSheet_106
+  - first:
+      213: 5670715058852905608
+    second: NoahDanceSpriteSheet_107
+  - first:
+      213: 7339910260165601134
+    second: NoahDanceSpriteSheet_108
+  - first:
+      213: 5812246513333598478
+    second: NoahDanceSpriteSheet_109
+  - first:
+      213: 1255658713221707099
+    second: NoahDanceSpriteSheet_110
+  - first:
+      213: 4265508299693130626
+    second: NoahDanceSpriteSheet_111
+  - first:
+      213: 6291340268808713475
+    second: NoahDanceSpriteSheet_112
+  - first:
+      213: 6775391043323331439
+    second: NoahDanceSpriteSheet_113
+  - first:
+      213: -7934148008618955819
+    second: NoahDanceSpriteSheet_114
+  - first:
+      213: -8353454855447969732
+    second: NoahDanceSpriteSheet_115
+  - first:
+      213: 1172890098614724970
+    second: NoahDanceSpriteSheet_116
+  - first:
+      213: 5993834875844029863
+    second: NoahDanceSpriteSheet_117
+  - first:
+      213: 1233385728524361957
+    second: NoahDanceSpriteSheet_118
+  - first:
+      213: -2042544614219313042
+    second: NoahDanceSpriteSheet_119
+  - first:
+      213: -4471253581241874651
+    second: NoahDanceSpriteSheet_0
+  - first:
+      213: 5656606593046653151
+    second: NoahDanceSpriteSheet_1
+  - first:
+      213: 9169583410208951173
+    second: NoahDanceSpriteSheet_2
+  - first:
+      213: -8463936557180136691
+    second: NoahDanceSpriteSheet_3
+  - first:
+      213: 1813640299035143462
+    second: NoahDanceSpriteSheet_4
+  - first:
+      213: 5098939256170266033
+    second: NoahDanceSpriteSheet_5
+  - first:
+      213: -2171697632648831110
+    second: NoahDanceSpriteSheet_6
+  - first:
+      213: 8762466410247225033
+    second: NoahDanceSpriteSheet_7
+  - first:
+      213: -6681699516921701594
+    second: NoahDanceSpriteSheet_8
+  - first:
+      213: 5102267993611199407
+    second: NoahDanceSpriteSheet_9
+  - first:
+      213: 172043577310390356
+    second: NoahDanceSpriteSheet_10
+  - first:
+      213: 5272770011610855999
+    second: NoahDanceSpriteSheet_11
+  - first:
+      213: 2347026923661921473
+    second: NoahDanceSpriteSheet_12
+  - first:
+      213: -7452340055563824599
+    second: NoahDanceSpriteSheet_13
+  - first:
+      213: 869049183443511025
+    second: NoahDanceSpriteSheet_14
+  - first:
+      213: -922487405221081566
+    second: NoahDanceSpriteSheet_15
+  - first:
+      213: 1905777777930875947
+    second: NoahDanceSpriteSheet_16
+  - first:
+      213: -5712570434034975535
+    second: NoahDanceSpriteSheet_17
+  - first:
+      213: 5339063817961648109
+    second: NoahDanceSpriteSheet_18
+  - first:
+      213: -3488100431744534433
+    second: NoahDanceSpriteSheet_19
+  - first:
+      213: -1391382570191400661
+    second: NoahDanceSpriteSheet_20
+  - first:
+      213: 4973957073034708914
+    second: NoahDanceSpriteSheet_21
+  - first:
+      213: -8879682459950332276
+    second: NoahDanceSpriteSheet_22
+  - first:
+      213: 3139778290287138537
+    second: NoahDanceSpriteSheet_23
+  - first:
+      213: 2793550153172163668
+    second: NoahDanceSpriteSheet_24
+  - first:
+      213: 5065345500766982377
+    second: NoahDanceSpriteSheet_25
+  - first:
+      213: 8068185385715293679
+    second: NoahDanceSpriteSheet_26
+  - first:
+      213: -1918551573268905505
+    second: NoahDanceSpriteSheet_27
+  - first:
+      213: -6949017888829971571
+    second: NoahDanceSpriteSheet_28
+  - first:
+      213: -5213144126230715490
+    second: NoahDanceSpriteSheet_29
+  - first:
+      213: -5307205063725864518
+    second: NoahDanceSpriteSheet_30
+  - first:
+      213: 7593669404381932064
+    second: NoahDanceSpriteSheet_31
+  - first:
+      213: -6754261102522754009
+    second: NoahDanceSpriteSheet_32
+  - first:
+      213: -2415999308197001472
+    second: NoahDanceSpriteSheet_33
+  - first:
+      213: -2851419965698752703
+    second: NoahDanceSpriteSheet_34
+  - first:
+      213: -6559055505761484779
+    second: NoahDanceSpriteSheet_35
+  - first:
+      213: -216224304126448790
+    second: NoahDanceSpriteSheet_36
+  - first:
+      213: -4439609305640497303
+    second: NoahDanceSpriteSheet_37
+  - first:
+      213: 1564460509166713466
+    second: NoahDanceSpriteSheet_38
+  - first:
+      213: -4630643760682523420
+    second: NoahDanceSpriteSheet_39
+  - first:
+      213: 6798204481212352142
+    second: NoahDanceSpriteSheet_40
+  - first:
+      213: -2822175468792460189
+    second: NoahDanceSpriteSheet_41
+  - first:
+      213: 8872543167828475330
+    second: NoahDanceSpriteSheet_42
+  - first:
+      213: -7216797221785576340
+    second: NoahDanceSpriteSheet_43
+  - first:
+      213: 7730681424054477717
+    second: NoahDanceSpriteSheet_44
+  - first:
+      213: -1990734698164740530
+    second: NoahDanceSpriteSheet_45
+  - first:
+      213: 5488383298788879349
+    second: NoahDanceSpriteSheet_46
+  - first:
+      213: -4230610631601842816
+    second: NoahDanceSpriteSheet_47
+  - first:
+      213: -1167459077991288565
+    second: NoahDanceSpriteSheet_48
+  - first:
+      213: 4521070740279499769
+    second: NoahDanceSpriteSheet_49
+  - first:
+      213: -3427145905888471912
+    second: NoahDanceSpriteSheet_50
+  - first:
+      213: -6906296469300886133
+    second: NoahDanceSpriteSheet_51
+  - first:
+      213: 5106597420683502850
+    second: NoahDanceSpriteSheet_52
+  - first:
+      213: -4973202902802515625
+    second: NoahDanceSpriteSheet_53
+  - first:
+      213: 8277122499649192054
+    second: NoahDanceSpriteSheet_54
+  - first:
+      213: -747867227876536000
+    second: NoahDanceSpriteSheet_55
+  - first:
+      213: 4263005880398636697
+    second: NoahDanceSpriteSheet_56
+  - first:
+      213: 3248309288483998429
+    second: NoahDanceSpriteSheet_57
+  - first:
+      213: -5717105622779293536
+    second: NoahDanceSpriteSheet_58
+  - first:
+      213: 1739885762496042706
+    second: NoahDanceSpriteSheet_59
+  - first:
+      213: -2303063783395074016
+    second: NoahDanceSpriteSheet_60
+  - first:
+      213: 1891815519420175025
+    second: NoahDanceSpriteSheet_61
+  - first:
+      213: 4289485070540193196
+    second: NoahDanceSpriteSheet_62
+  - first:
+      213: 3198079293311143874
+    second: NoahDanceSpriteSheet_63
+  - first:
+      213: 6259320321332268229
+    second: NoahDanceSpriteSheet_64
+  - first:
+      213: -3066844588150384303
+    second: NoahDanceSpriteSheet_65
+  - first:
+      213: 3912116854196648854
+    second: NoahDanceSpriteSheet_66
+  - first:
+      213: -3359777791151261882
+    second: NoahDanceSpriteSheet_67
+  - first:
+      213: 892474566136161027
+    second: NoahDanceSpriteSheet_68
+  - first:
+      213: -2538615272053426821
+    second: NoahDanceSpriteSheet_69
+  - first:
+      213: 8659292869103125540
+    second: NoahDanceSpriteSheet_70
+  - first:
+      213: 2053396991667965072
+    second: NoahDanceSpriteSheet_71
+  - first:
+      213: 3291920117593919673
+    second: NoahDanceSpriteSheet_72
+  - first:
+      213: 4356507191467442582
+    second: NoahDanceSpriteSheet_73
+  - first:
+      213: 3169677856782497101
+    second: NoahDanceSpriteSheet_74
+  - first:
+      213: 2040947350730894825
+    second: NoahDanceSpriteSheet_75
+  - first:
+      213: 1826574772530616416
+    second: NoahDanceSpriteSheet_76
+  - first:
+      213: -482368490568789897
+    second: NoahDanceSpriteSheet_77
+  - first:
+      213: -4299604604305592497
+    second: NoahDanceSpriteSheet_78
+  - first:
+      213: -4174307213978347359
+    second: NoahDanceSpriteSheet_79
+  - first:
+      213: -6368099242144427311
+    second: NoahDanceSpriteSheet_80
+  - first:
+      213: -1846540234776518473
+    second: NoahDanceSpriteSheet_81
+  - first:
+      213: -153471903719749614
+    second: NoahDanceSpriteSheet_82
+  - first:
+      213: 7514133393396177271
+    second: NoahDanceSpriteSheet_83
+  - first:
+      213: -6954667035608874470
+    second: NoahDanceSpriteSheet_84
+  - first:
+      213: -7056348717391487041
+    second: NoahDanceSpriteSheet_85
+  - first:
+      213: 5107715431136075150
+    second: NoahDanceSpriteSheet_86
+  - first:
+      213: 7959680636177562688
+    second: NoahDanceSpriteSheet_87
+  - first:
+      213: 3621892113322629404
+    second: NoahDanceSpriteSheet_88
+  - first:
+      213: 6875262941401964155
+    second: NoahDanceSpriteSheet_89
+  - first:
+      213: 8547939923407271263
+    second: NoahDanceSpriteSheet_90
+  - first:
+      213: 7582472186988550633
+    second: NoahDanceSpriteSheet_91
+  - first:
+      213: -9015615053255823464
+    second: NoahDanceSpriteSheet_92
+  - first:
+      213: -1295669200491819929
+    second: NoahDanceSpriteSheet_93
+  - first:
+      213: 4436203474168791149
+    second: NoahDanceSpriteSheet_94
+  - first:
+      213: 6792117818383443137
+    second: NoahDanceSpriteSheet_95
+  - first:
+      213: 4407820859789558640
+    second: NoahDanceSpriteSheet_96
+  - first:
+      213: -1372755603988922851
+    second: NoahDanceSpriteSheet_97
+  - first:
+      213: -191142995595488060
+    second: NoahDanceSpriteSheet_98
+  - first:
+      213: 4748935018771014430
+    second: NoahDanceSpriteSheet_99
+  - first:
+      213: 6673258246843382534
+    second: NoahDanceSpriteSheet_100
+  - first:
+      213: -202655281074839273
+    second: NoahDanceSpriteSheet_101
+  - first:
+      213: 5896074499389030552
+    second: NoahDanceSpriteSheet_102
+  - first:
+      213: 4993997077776325081
+    second: NoahDanceSpriteSheet_103
+  - first:
+      213: 9024119816101245006
+    second: NoahDanceSpriteSheet_104
+  - first:
+      213: -1219259403152912487
+    second: NoahDanceSpriteSheet_105
+  - first:
+      213: -1336728188567827501
+    second: NoahDanceSpriteSheet_106
+  - first:
+      213: -4196709073423198953
+    second: NoahDanceSpriteSheet_107
+  - first:
+      213: 7116699536956888429
+    second: NoahDanceSpriteSheet_108
+  - first:
+      213: -4573395764599165460
+    second: NoahDanceSpriteSheet_109
+  - first:
+      213: -6733359057380182037
+    second: NoahDanceSpriteSheet_110
+  - first:
+      213: -4530528839973494300
+    second: NoahDanceSpriteSheet_111
+  - first:
+      213: -8920231636708909390
+    second: NoahDanceSpriteSheet_112
+  - first:
+      213: 3618427310825818266
+    second: NoahDanceSpriteSheet_113
+  - first:
+      213: 2422325080743399377
+    second: NoahDanceSpriteSheet_114
+  - first:
+      213: 4053125437420333800
+    second: NoahDanceSpriteSheet_115
+  - first:
+      213: 6492601352495908270
+    second: NoahDanceSpriteSheet_116
+  - first:
+      213: -5175860586789283241
+    second: NoahDanceSpriteSheet_117
+  - first:
+      213: -2432166961333820726
+    second: NoahDanceSpriteSheet_118
+  - first:
+      213: 8002337539201514995
+    second: NoahDanceSpriteSheet_119
+  - first:
+      213: -5420112836957349628
+    second: NoahDanceSpriteSheet_120
+  - first:
+      213: -2674615661617050948
+    second: NoahDanceSpriteSheet_121
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527826dbe8ae2f1c0800000000000000
+      internalID: -4471253581241874651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ada4f9bd408e40800000000000000
+      internalID: 5656606593046653151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bc1df6787e04f70800000000000000
+      internalID: 9169583410208951173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d5db8b8e0a8a80800000000000000
+      internalID: -8463936557180136691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da25e2e385b2910800000000000000
+      internalID: 1813640299035143462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdb257fc3213c640800000000000000
+      internalID: 5098939256170266033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fd86e52849cd1e0800000000000000
+      internalID: -2171697632648831110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4729.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef31b46c88a9970800000000000000
+      internalID: 8762466410247225033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9bf5c0b5d543a0800000000000000
+      internalID: -6681699516921701594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa36a0c05b5eec640800000000000000
+      internalID: 5102267993611199407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4582977d8b8336200800000000000000
+      internalID: 172043577310390356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ab564a364ac2940800000000000000
+      internalID: 5272770011610855999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc852f4d80529020800000000000000
+      internalID: 2347026923661921473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92214b22438f39890800000000000000
+      internalID: -7452340055563824599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66e7fb0ab7f0c00800000000000000
+      internalID: 869049183443511025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4392.3335
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e860ea79aa233f0800000000000000
+      internalID: -922487405221081566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b243762bacea27a10800000000000000
+      internalID: 1905777777930875947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc32fce47fd8b0b0800000000000000
+      internalID: -5712570434034975535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defaebe314a281a40800000000000000
+      internalID: 5339063817961648109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58faf85327c79fc0800000000000000
+      internalID: -3488100431744534433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21521d9ce0d0bce0800000000000000
+      internalID: -1391382570191400661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b78642da9b070540800000000000000
+      internalID: 4973957073034708914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c46869d705c480800000000000000
+      internalID: -8879682459950332276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4055.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65c0248bbb29b20800000000000000
+      internalID: 3139778290287138537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c901e301fa4c620800000000000000
+      internalID: 2793550153172163668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0d6d545e8bb4640800000000000000
+      internalID: 5065345500766982377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedde897cd3f7ff60800000000000000
+      internalID: 8068185385715293679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd14a00528fef55e0800000000000000
+      internalID: -1918551573268905505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83647e2c01209f90800000000000000
+      internalID: -6949017888829971571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93aa11a90137a7b0800000000000000
+      internalID: -5213144126230715490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab927720d150956b0800000000000000
+      internalID: -5307205063725864518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3718.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aefed1712226960800000000000000
+      internalID: 7593669404381932064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c94e7105b0442a0800000000000000
+      internalID: -6754261102522754009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00704510e65a87ed0800000000000000
+      internalID: -2415999308197001472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fb11f06a8bd68d0800000000000000
+      internalID: -2851419965698752703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5104405d4cd89f4a0800000000000000
+      internalID: -6559055505761484779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bacb81421dffcf0800000000000000
+      internalID: -216224304126448790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f87cbcbd65362c0800000000000000
+      internalID: -4439609305640497303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a32025b8416b510800000000000000
+      internalID: 1564460509166713466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3381.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4a32ba806acbfb0800000000000000
+      internalID: -4630643760682523420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86812d05f2185e50800000000000000
+      internalID: 6798204481212352142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ccdc81d5e95d8d0800000000000000
+      internalID: -2822175468792460189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3cbc900b912b70800000000000000
+      internalID: 8872543167828475330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cd17bb929c8db90800000000000000
+      internalID: -7216797221785576340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5936a78dbc5e84b60800000000000000
+      internalID: 7730681424054477717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e98d1e65d7f54e0800000000000000
+      internalID: -1990734698164740530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb6f731887aa2c40800000000000000
+      internalID: 5488383298788879349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3044.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08591689b0ad945c0800000000000000
+      internalID: -4230610631601842816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01368e672a5ccfe0800000000000000
+      internalID: -1167459077991288565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb95c672e11ebe30800000000000000
+      internalID: 4521070740279499769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8945516d4f45070d0800000000000000
+      internalID: -3427145905888471912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8549c9c3f7e720a0800000000000000
+      internalID: -6906296469300886133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20524c65c474ed640800000000000000
+      internalID: 5106597420683502850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b38e1f42abfab0800000000000000
+      internalID: -4973202902802515625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670cbf13f0f3ed270800000000000000
+      internalID: 8277122499649192054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2707.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415347f7ba0f95f0800000000000000
+      internalID: -747867227876536000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ef88034d392b30800000000000000
+      internalID: 4263005880398636697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddac0bc6610541d20800000000000000
+      internalID: 3248309288483998429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a01ad20ab2c8a0b0800000000000000
+      internalID: -5717105622779293536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61657f1e0552810800000000000000
+      internalID: 1739885762496042706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0206bafe0bfd900e0800000000000000
+      internalID: -2303063783395074016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25c9f0134114a10800000000000000
+      internalID: 1891815519420175025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadb3eae1ff478b30800000000000000
+      internalID: 4289485070540193196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2370.3333
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfc7515c2cd16c20800000000000000
+      internalID: 3198079293311143874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc4604ba29dd650800000000000000
+      internalID: 6259320321332268229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15997fd88116075d0800000000000000
+      internalID: -3066844588150384303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bb5363d81aa4630800000000000000
+      internalID: 3912116854196648854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647be2a56ebaf51d0800000000000000
+      internalID: -3359777791151261882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303ed9da3e4b26c00800000000000000
+      internalID: 892474566136161027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75bfd73cd605ccd0800000000000000
+      internalID: -2538615272053426821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42407fc4cfcfb2870800000000000000
+      internalID: 8659292869103125540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2033.3334
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c893f3fa12f7c10800000000000000
+      internalID: 2053396991667965072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0d526d7ef3fad20800000000000000
+      internalID: 3291920117593919673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6910ad8753c657c30800000000000000
+      internalID: 4356507191467442582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1689
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4531f19735fcfb20800000000000000
+      internalID: 3169677856782497101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ede6955dc6e25c10800000000000000
+      internalID: 2040947350730894825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0689068f31c495910800000000000000
+      internalID: 1826574772530616416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7705eccd9684e49f0800000000000000
+      internalID: -482368490568789897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1693
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f2bb5846cb454c0800000000000000
+      internalID: -4299604604305592497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1689
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8587f84b1e116c0800000000000000
+      internalID: -4174307213978347359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d21c899a77ff97a0800000000000000
+      internalID: -6368099242144427311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1352
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0edaa9075cf56e0800000000000000
+      internalID: -1846540234776518473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1351
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21808cfdd12ceddf0800000000000000
+      internalID: -153471903719749614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1352
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779974c7280974860800000000000000
+      internalID: 7514133393396177271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1355
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a120a63bd2f0c7f90800000000000000
+      internalID: -6954667035608874470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1356
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfd8984a30d21e90800000000000000
+      internalID: -7056348717391487041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1348
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d95ae6f1042e640800000000000000
+      internalID: 5107715431136075150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1352
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c3beccd57767e60800000000000000
+      internalID: 7959680636177562688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1014
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19526dffab834230800000000000000
+      internalID: 3621892113322629404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1011
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7edbafe737d96f50800000000000000
+      internalID: 6875262941401964155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1015
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f118421260a670800000000000000
+      internalID: 8547939923407271263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1011
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e95bb8c74a5a3960800000000000000
+      internalID: 7582472186988550633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 1011
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fa50730e912e280800000000000000
+      internalID: -9015615053255823464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1018
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c45461abbd40ee0800000000000000
+      internalID: -1295669200491819929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1015
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d604f254e8f809d30800000000000000
+      internalID: 4436203474168791149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1014
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4a85d6b23724e50800000000000000
+      internalID: 6792117818383443137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0734055e7b9bb2d30800000000000000
+      internalID: 4407820859789558640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 674
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e30d42d0ef2fce0800000000000000
+      internalID: -1372755603988922851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 678
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c41a3e457ce85df0800000000000000
+      internalID: -191142995595488060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 674
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1362471d3b97e140800000000000000
+      internalID: 4748935018771014430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 678
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bbb81e40d2c9c50800000000000000
+      internalID: 6673258246843382534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 678
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7116da77816003df0800000000000000
+      internalID: -202655281074839273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 678
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908259b48013d150800000000000000
+      internalID: 5896074499389030552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 678
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9523602ed3e4540800000000000000
+      internalID: 4993997077776325081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403741392d1c3d70800000000000000
+      internalID: 9024119816101245006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 333
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f04026802541fe0800000000000000
+      internalID: -1219259403152912487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 337
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbc9277bccf27de0800000000000000
+      internalID: -1336728188567827501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 337
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71593f4355b42c5c0800000000000000
+      internalID: -4196709073423198953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 333
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d659081e58893c260800000000000000
+      internalID: 7116699536956888429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 341
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced6ac178c80880c0800000000000000
+      internalID: -4573395764599165460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 337
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7f1b7bc9d4e82a0800000000000000
+      internalID: -6733359057380182037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 341
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a7b816045021c0800000000000000
+      internalID: -4530528839973494300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 600
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be93cb7698f43480800000000000000
+      internalID: -8920231636708909390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98485bc77c373230800000000000000
+      internalID: 3618427310825818266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfca30b3d3dd9120800000000000000
+      internalID: 2422325080743399377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eae9876c189f3830800000000000000
+      internalID: 4053125437420333800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea54db3e78a5a1a50800000000000000
+      internalID: 6492601352495908270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ada7d1836ab28b0800000000000000
+      internalID: -5175860586789283241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2a14be8053f3ed0800000000000000
+      internalID: -2432166961333820726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoahDanceSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 11.3333435
+        width: 600
+        height: 335.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd31ecf7930e0f60800000000000000
+      internalID: 8002337539201514995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

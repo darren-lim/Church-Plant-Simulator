@@ -13,14 +13,98 @@ public class Character : MonoBehaviour
     public float Music;
     public float Fellowship;
     public float Teaching;
+
     [Header("Spiritual Skills")]
     public float Serving;
     public float Spirituality;
 
+    [Header("Max Amount of Skill Points")]
+    public float maxPoints;
 
-    public void Move()
+    [Header("Animations / Moving")]
+    public Animator animator;
+    public Transform[] movePoints;
+    protected bool AtPoint = true;
+    private int listIndex = 0;
+    protected Vector3 point;
+    public float moveSpeed = 1f;
+    public float waitTime = 2f;
+    public float MoveTime = 10f;
+    public float MoveTimeMax = 10f;
+
+    public IEnumerator Move()
     {
-
+        while(Application.isPlaying)
+        {
+            if (AtPoint)
+            {
+                listIndex++;
+                if (listIndex == movePoints.Length)
+                    listIndex = 0;
+                point = new Vector3(movePoints[listIndex].position.x, movePoints[listIndex].position.y);
+                animator.SetBool("walkUp", false);
+                animator.SetBool("walkDown", false);
+                animator.SetBool("walkRight", false);
+                animator.SetBool("walkLeft", false);
+                animator.SetBool("isIdle", true);
+                AtPoint = false;
+                yield return new WaitForSeconds(waitTime);
+            }
+            else
+            {
+                animator.SetBool("isIdle", false);
+                transform.position = Vector3.MoveTowards(transform.position, point, moveSpeed * Time.deltaTime);
+                Vector3 heading = point - transform.position;
+                // walk right
+                if (heading.x > 0)
+                {
+                    if (heading.y > heading.x)
+                    {
+                        // if walking more up than right, set animation up
+                        animator.SetBool("walkUp", true);
+                        animator.SetBool("walkRight", false);
+                    }
+                    else if (heading.y < -heading.x)
+                    {
+                        animator.SetBool("walkDown", true);
+                        animator.SetBool("walkRight", false);
+                    }
+                    else
+                    {
+                        animator.SetBool("walkRight", true);
+                    }
+                }
+                // walk left
+                else
+                {
+                    if (heading.y < heading.x)
+                    {
+                        animator.SetBool("walkDown", true);
+                        animator.SetBool("walkLeft", false);
+                    }
+                    else if (heading.y > -heading.x)
+                    {
+                        animator.SetBool("walkUp", true);
+                        animator.SetBool("walkLeft", false);
+                    }
+                    else
+                    {
+                        animator.SetBool("walkLeft", true);
+                    }
+                }
+                MoveTime--;
+                if (MoveTime <= 0)
+                {
+                    if (Vector3.Distance(transform.position, point) < 0.001f)
+                    {
+                        AtPoint = true;
+                        MoveTime = MoveTimeMax;
+                    }
+                }
+                yield return null;
+            }
+        }
+        yield return null;
     }
 
     public void ChangeMood(float moodChange)
@@ -45,57 +129,62 @@ public class Character : MonoBehaviour
 
     public void AddMusic(float value)
     {
-        if (Music < 10)
+        if (Music < maxPoints)
         {
             Music += value;
-            if (Music > 10)
+            if (Music > maxPoints)
             {
-                Music = 10;
+                Music = maxPoints;
             }
         }
     }
     public void AddFellowship(float value)
     {
-        if (Fellowship < 10)
+        if (Fellowship < maxPoints)
         {
             Fellowship += value;
-            if (Fellowship > 10)
+            if (Fellowship > maxPoints)
             {
-                Fellowship = 10;
+                Fellowship = maxPoints;
             }
         }
     }
     public void AddTeaching(float value)
     {
-        if (Music < 10)
+        if (Teaching < maxPoints)
         {
-            Music += value;
-            if (Music > 10)
+            Teaching += value;
+            if (Teaching > maxPoints)
             {
-                Music = 10;
+                Teaching = maxPoints;
             }
         }
     }
     public void AddServing(float value)
     {
-        if (Serving < 10)
+        if (Serving < maxPoints)
         {
             Serving += value;
-            if (Serving > 10)
+            if (Serving > maxPoints)
             {
-                Serving = 10;
+                Serving = maxPoints;
             }
         }
     }
     public void AddSpirit(float value)
     {
-        if (Spirituality < 10)
+        if (Spirituality < maxPoints)
         {
             Spirituality += value;
-            if (Spirituality > 10)
+            if (Spirituality > maxPoints)
             {
-                Spirituality = 10;
+                Spirituality = maxPoints;
             }
         }
+    }
+
+    public float GetMaxPoints()
+    {
+        return maxPoints;
     }
 }
