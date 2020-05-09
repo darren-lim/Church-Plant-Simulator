@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,6 +24,16 @@ public class GameManager : MonoBehaviour
     public float burnoutChangeValue;
     public float moodChangeValue;
 
+    [Header("Clock Attrubutes")]
+    public float counter = 0f;
+    public TextMeshProUGUI clockText;
+    // 1.83 is 11/6. 11 seconds for the 10 seconds of sunday + 1 second between each day.
+    // 6 is for 6 hours. the day goes from 2 to 8.
+    public float divideNum = 1.83f;
+    private float counterAdd = 1.83f;
+    public float clockStart = 2f;
+    private float clockTime = 2f;
+
 
     private void Awake()
     {
@@ -44,6 +54,8 @@ public class GameManager : MonoBehaviour
         sliders = GetComponent<SliderChangeScript>();
         burnoutChangeValue = 2f;
         moodChangeValue = 2f;
+        counterAdd = divideNum;
+        clockTime = clockStart;
 
         // Game events
         GameEvents.instance.onSundayEvent += itIsSunday;
@@ -55,7 +67,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
+        if (isSunday)
+        {
+            counter += Time.deltaTime;
+            if(counter >= divideNum)
+            {
+                clockTime += 1;
+                clockText.text = clockTime.ToString() + ":00";
+                divideNum += counterAdd;
+            }
+        }
     }
 
     private IEnumerator NextDayCountdown()
@@ -66,7 +87,7 @@ public class GameManager : MonoBehaviour
             if (isSunday)
             {
                 // add beginning of sunday values
-
+                clockText.text = "2:00";
                 Debug.Log("It's Sunday");
                 yield return new WaitForSeconds(sundayDuration);
                 isSunday = false;
@@ -78,6 +99,10 @@ public class GameManager : MonoBehaviour
             else
             {
                 // weekday
+                counter = 0f;
+                clockText.text = "Weekday...";
+                clockTime = clockStart;
+                divideNum = counterAdd;
             }
             GameEvents.instance.NextDayEvent();
         }
