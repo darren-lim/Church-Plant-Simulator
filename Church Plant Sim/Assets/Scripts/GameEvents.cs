@@ -24,6 +24,8 @@ public class GameEvents : MonoBehaviour
             instance = this;
         }
     }
+    public event Action onPauseEvent;
+
     public event Action onNextDayEvent;
     public event Action onSundayEvent;
     public event Action onWeekdayStartEvent;
@@ -57,6 +59,14 @@ public class GameEvents : MonoBehaviour
         if (onWeekdayConfirmEvent != null)
         {
             onWeekdayConfirmEvent();
+        }
+    }
+
+    public void PauseEvent()
+    {
+        if (onPauseEvent != null)
+        {
+            onPauseEvent();
         }
     }
 }

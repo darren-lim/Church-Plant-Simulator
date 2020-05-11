@@ -21,10 +21,12 @@ public class UIManagerScript : MonoBehaviour
     }
     public TextMeshProUGUI dateText;
     public TextMeshProUGUI budgetText;
+    public GameObject PauseCanvas;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        GameEvents.instance.onPauseEvent += ShowPause;
     }
 
     public void UpdateDate(string newText)
@@ -35,6 +37,18 @@ public class UIManagerScript : MonoBehaviour
     public void UpdateBudget(string newText)
     {
         budgetText.text = "$" + newText;
+    }
+
+    public void ShowPause()
+    {
+        if(PauseCanvas.activeInHierarchy == false)
+        {
+            PauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
+            PauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
+            PauseCanvas.SetActive(true);
+        }
+        else
+            PauseCanvas.SetActive(false);
     }
 
 }

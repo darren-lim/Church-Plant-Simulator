@@ -50,8 +50,13 @@ MonoBehaviour:
   sundayDuration: 10
   weekdayDuration: 1
   sliders: {fileID: 714995224113264536}
-  burnoutValue: 0
-  moodValue: 0
+  burnoutChangeValue: 0
+  moodChangeValue: 0
+  counter: 0
+  clockText: {fileID: 0}
+  divideNum: 1.83
+  clockStart: 2
+  clockTime: 2
 --- !u!114 &1967367098
 MonoBehaviour:
   m_ObjectHideFlags: 0

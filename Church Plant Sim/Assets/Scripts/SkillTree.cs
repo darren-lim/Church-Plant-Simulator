@@ -11,12 +11,12 @@ public class SkillTree : MonoBehaviour
     public Slider spiritSlider;
     public Slider servingSlider;
 
-    private Slider[] sliders;
+    public Slider[] sliders = new Slider[5];
 
-    private PDanScript pDan;
+    public PDanScript pDan;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         sliders = new Slider[] { musicSlider, fellowSlider, teachSlider, spiritSlider, servingSlider };
         pDan = PDanScript.instance;

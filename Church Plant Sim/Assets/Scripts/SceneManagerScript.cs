@@ -10,6 +10,7 @@ public class SceneManagerScript : MonoBehaviour
     //public GameObject onScreenUICanvas;
 
     public bool isPaused = false;
+    public float timeScaleVal = 1f;
 
     private void Start()
     {
@@ -17,12 +18,11 @@ public class SceneManagerScript : MonoBehaviour
     }
     private void Update()
     {
-        /***
-        if (Input.GetKeyDown(KeyCode.Escape) && pauseCanvas != null)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseOrResume();
         }
-        ***/
+        
     }
 
     public void loadlevel(string level)
@@ -35,25 +35,25 @@ public class SceneManagerScript : MonoBehaviour
         Application.Quit();
     }
 
+    public void ChangeTime(float timeVal)
+    {
+        Time.timeScale = timeVal;
+        timeScaleVal = timeVal;
+    }
+
     public void PauseOrResume()
     {
-        try
+        if(Time.timeScale != 0 || !isPaused)
         {
-            if (!isPaused)
-            {
-                Time.timeScale = 0;
-                isPaused = true;
-            }
-            else
-            {
-                Time.timeScale = 1;
-                isPaused = false;
-            }
-            //pauseCanvas.SetActive(isPaused);
+            Time.timeScale = 0;
+            isPaused = true;
+            GameEvents.instance.PauseEvent();
         }
-        catch
+        else if(Time.timeScale == 0 || isPaused)
         {
-            Debug.Log("Esc No Work");
+            isPaused = false;
+            Time.timeScale = timeScaleVal;
+            GameEvents.instance.PauseEvent();
         }
     }
 
