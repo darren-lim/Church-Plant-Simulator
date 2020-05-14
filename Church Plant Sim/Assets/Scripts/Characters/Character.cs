@@ -13,6 +13,7 @@ public class Character : MonoBehaviour
     public float Music;
     public float Fellowship;
     public float Teaching;
+    public string[] skills = new string[3] { "Music", "Fellowship", "Teaching" };
 
     [Header("Spiritual Skills")]
     public float Serving;

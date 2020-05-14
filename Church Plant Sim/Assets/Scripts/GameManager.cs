@@ -34,6 +34,12 @@ public class GameManager : MonoBehaviour
     public float clockStart = 2f;
     private float clockTime = 2f;
 
+    [Header("NPC List")]
+    // linked list because we have a lot of insert and remove operations.
+    public LinkedList<GameObject> MembersList;
+    public LinkedList<GameObject> VisitorsList;
+    public NPCSpawner spawner;
+
 
     private void Awake()
     {
@@ -56,6 +62,9 @@ public class GameManager : MonoBehaviour
         moodChangeValue = 2f;
         counterAdd = divideNum;
         clockTime = clockStart;
+
+        // Pool NPCs
+        spawner = GetComponent<NPCSpawner>();
 
         // Game events
         GameEvents.instance.onSundayEvent += itIsSunday;
@@ -111,6 +120,60 @@ public class GameManager : MonoBehaviour
     public void itIsSunday()
     {
         isSunday = true;
+    }
+
+    /*
+     * Calculate each visitor's chance to come back next sunday.
+     * If the chance is successful, keep them in the visitors list,
+     * then calculate member chance.
+     * if member chance is successful, move them to members list
+     * 
+     * if not come back next sunday, remove them from the list.
+     */
+
+    public void CalculateVisitorNextSunday()
+    {
+        LinkedListNode<GameObject> head = VisitorsList.First;
+        LinkedListNode<GameObject> temp = null;
+        if(head != null)
+        {
+            NPC npcScript = head.Value.GetComponent<NPC>();
+            if (npcScript.CalculateComeBackSunday())
+            {
+                if (npcScript.CalculateMemberChance())
+                {
+                    temp = head;
+                    head = head.Next;
+                    MembersList.AddLast(temp);
+                    VisitorsList.Remove(temp);
+                    // add event that this npc became a member
+                }
+            }
+        }
+        while (head != null)
+        {
+            NPC npcScript = head.Value.GetComponent<NPC>();
+            if (npcScript.CalculateComeBackSunday())
+            {
+                if (npcScript.CalculateMemberChance())
+                {
+                    temp = head;
+                    head = head.Next;
+                    MembersList.AddLast(temp);
+                    VisitorsList.Remove(temp);
+                    // add event that this npc became a member
+
+                    continue;
+                }
+                head = head.Next;
+            }
+            else
+            {
+                temp = head;
+                head = head.Next;
+                VisitorsList.Remove(temp);
+            }
+        }
     }
 
 }

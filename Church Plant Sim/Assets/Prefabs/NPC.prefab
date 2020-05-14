@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4192733580153151201}
   - component: {fileID: 4192733580153151200}
   m_Layer: 0
-  m_Name: NPC (0)
+  m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -95,6 +96,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mood: 0
   burnout: 0
+  Music: 0
+  Fellowship: 0
+  Teaching: 0
+  skills:
+  - Music
+  - Fellowship
+  - Teaching
+  Serving: 0
+  Spirituality: 0
+  maxPoints: 0
+  animator: {fileID: 0}
+  movePoints: []
+  moveSpeed: 1
+  waitTime: 2
+  MoveTime: 10
+  MoveTimeMax: 10
+  skill: 
   isMember: 0
+  CharacterName: 
   ServingTeam: 
-  Skill: 
+  chanceToBecomeMember: 0
