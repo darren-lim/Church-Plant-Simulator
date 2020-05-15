@@ -74,7 +74,6 @@ public class CalendarReader : MonoBehaviour
             }
             textOutput += "\n";
         }
-        Debug.Log(textOutput);
     }
 
     void getValueAtIndex(int row, int col)

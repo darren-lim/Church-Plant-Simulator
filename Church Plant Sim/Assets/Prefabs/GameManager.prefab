@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 714995225085683927}
   - component: {fileID: 1967367098}
   - component: {fileID: 714995224113264536}
+  - component: {fileID: 5076127888109251970}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -54,9 +55,11 @@ MonoBehaviour:
   moodChangeValue: 0
   counter: 0
   clockText: {fileID: 0}
-  divideNum: 1.83
+  divideNum: 1.66
   clockStart: 2
-  clockTime: 2
+  spawner: {fileID: 0}
+  visitorAmount: 2
+  visitorCountLastWeek: 0
 --- !u!114 &1967367098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,3 +93,18 @@ MonoBehaviour:
   burnVal: 1
   moodVal: 100
   maxVal: 100
+--- !u!114 &5076127888109251970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714995225085683926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d59958dfcfb2041b7eeeafee0a5b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCObject: {fileID: 4192733580153151207, guid: 27f3beb3620d65c4c9ab1a2fbbadff5f,
+    type: 3}
+  EachNPCPoolAmount: 5

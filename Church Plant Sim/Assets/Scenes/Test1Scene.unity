@@ -5143,27 +5143,6 @@ PrefabInstance:
       objectReference: {fileID: 8739753951559637500}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aedf9c9a8afaf054382ee752a842f13c, type: 3}
---- !u!1 &714995224113264535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 714995225085683926, guid: aedf9c9a8afaf054382ee752a842f13c,
-    type: 3}
-  m_PrefabInstance: {fileID: 714995224113264534}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &714995224113264536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714995224113264535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d59958dfcfb2041b7eeeafee0a5b70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NPCObject: {fileID: 4192733580153151207, guid: 27f3beb3620d65c4c9ab1a2fbbadff5f,
-    type: 3}
-  EachNPCPoolAmount: 50
 --- !u!1001 &5487962291869125523
 PrefabInstance:
   m_ObjectHideFlags: 0
