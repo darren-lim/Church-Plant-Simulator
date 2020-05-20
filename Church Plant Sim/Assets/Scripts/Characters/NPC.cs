@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using TMPro;
 
 public class NPC : Character
 {
@@ -12,6 +13,17 @@ public class NPC : Character
     // if is member is false, then we are visitor
     public bool isMember = false;
     public string CharacterName;
+    public string servingTeam;
+
+    [Header("NPC UI Attributes")]
+    public GameObject uiCanvas;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI isMemberText;
+    public TextMeshProUGUI skillText;
+    public TextMeshProUGUI servingTeamText;
+    public TextMeshProUGUI moodText;
+    public TextMeshProUGUI burnText;
+
 
     [Header("Member Attributes")]
     public string ServingTeam;
@@ -30,7 +42,7 @@ public class NPC : Character
     // Start is called before the first frame update
     void Awake()
     {
-        ServingTeam = "";
+        ServingTeam = "No ST";
     }
 
     // Update is called once per frame
@@ -54,6 +66,7 @@ public class NPC : Character
             chanceToBecomeMember = 50f;
             successfulSundays = 100f;
             Shuffle();
+            setLocation();
         }
     }
 
@@ -62,10 +75,25 @@ public class NPC : Character
         
     }
 
-    private void OnDestroy()
+    private void OnMouseDown()
     {
-        // destory only when npc is visitor and it has
-        // failed to come back the next sunday
+        if (uiCanvas.activeInHierarchy)
+            return;
+        nameText.text = CharacterName;
+        if (isMember)
+        {
+            isMemberText.text = "Member";
+            servingTeamText.text = servingTeam;
+        }
+        else
+        {
+            isMemberText.text = "Visitor";
+            servingTeamText.text = "";
+        }
+        skillText.text = skill;
+        moodText.text = "Mood: " + mood.ToString();
+        burnText.text = "Burnout: " + burnout.ToString();
+        uiCanvas.SetActive(true);
     }
 
     public void AddSkillPoint(string skillName, float value)
@@ -108,6 +136,11 @@ public class NPC : Character
             return false;
     }
 
+    public void BecomeMember()
+    {
+        isMember = true;
+    }
+
     /*
      * This function will shuffle the NPC attributes such as sprites and skills.
      * This function is used when a visitor fails to come back, thus "losing" the visitor
@@ -116,9 +149,11 @@ public class NPC : Character
     public void Shuffle()
     {
         // give new name and skill
-        name = GenerateName();
+        CharacterName = GenerateName();
+        name = CharacterName;
         int randNum = Random.Range(0, 3);
         skill = skills[randNum];
+        ServingTeam = "No ST";
         // recalculate chancetobecomemember variable and successfulsundays variable
     }
 
@@ -128,5 +163,13 @@ public class NPC : Character
         string secondName = nameComponent2[Random.Range(0, nameComponent2.Length)].ToString();
 
         return firstName + " " + secondName;
+    }
+
+    // for debug purposes, will not be included later
+    void setLocation()
+    {
+        float randX = Random.Range(-4.0f, 4.1f);
+        float randY = Random.Range(-4.0f, 4.1f);
+        transform.SetPositionAndRotation(new Vector3(randX, randY, 0), Quaternion.identity);
     }
 }

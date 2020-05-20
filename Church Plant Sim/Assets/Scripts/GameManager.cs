@@ -39,6 +39,9 @@ public class GameManager : MonoBehaviour
     public int visitorAmount = 1;
     public int visitorCountLastWeek = 0;
 
+    public TextMeshProUGUI visitorListText;
+    public TextMeshProUGUI memberListText;
+
 
     private void Awake()
     {
@@ -109,8 +112,13 @@ public class GameManager : MonoBehaviour
                 List<GameObject> newMembers = spawner.CalculateVisitorSunday();
                 foreach(GameObject newMember in newMembers)
                 {
-                    Debug.Log(newMember.name + " is now a new member!");
+                    Debug.Log(newMember.name + " has become a Member!");
+                    newMember.GetComponent<NPC>().BecomeMember();
                 }
+
+                // change member and visitors lists
+                visitorListText.text = spawner.VisitorListToString();
+                memberListText.text = spawner.MemberListToString();
 
                 Debug.Log("It's Sunday");
                 yield return new WaitForSeconds(sundayDuration);

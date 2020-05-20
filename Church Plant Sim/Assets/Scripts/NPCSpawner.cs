@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text;
+
 
 public class NPCSpawner : MonoBehaviour
 {
@@ -88,6 +90,7 @@ public class NPCSpawner : MonoBehaviour
         }
     }
 
+    // sets all npcs in the heirarchy to disabled
     public void DeactivateAll()
     {
         foreach (GameObject npc in MembersList)
@@ -114,7 +117,7 @@ public class NPCSpawner : MonoBehaviour
     public GameObject PoolMoreNPCs()
     {
         GameObject obj = (GameObject)Instantiate(NPCObject);
-        obj.SetActive(false);
+        obj.SetActive(true);
         VisitorsList.AddLast(obj);
         return obj;
     }
@@ -180,6 +183,34 @@ public class NPCSpawner : MonoBehaviour
             }
         }
         return newMembers;
+    }
+
+
+    // maybe integrate these to string functions into creation of the npc
+    public string VisitorListToString()
+    {
+        StringBuilder list = new StringBuilder("", 100);
+        foreach (GameObject npc in VisitorsList)
+        {
+            if (npc != null && npc.activeInHierarchy)
+            {
+                list.AppendLine(npc.name);
+            }
+        }
+        return list.ToString();
+    }
+
+    public string MemberListToString()
+    {
+        StringBuilder list = new StringBuilder("", 100);
+        foreach (GameObject npc in MembersList)
+        {
+            if (npc != null && npc.activeInHierarchy)
+            {
+                list.AppendLine(npc.name);
+            }
+        }
+        return list.ToString();
     }
 
 }
