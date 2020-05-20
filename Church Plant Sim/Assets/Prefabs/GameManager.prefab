@@ -60,6 +60,8 @@ MonoBehaviour:
   spawner: {fileID: 0}
   visitorAmount: 2
   visitorCountLastWeek: 0
+  visitorListText: {fileID: 0}
+  memberListText: {fileID: 0}
 --- !u!114 &1967367098
 MonoBehaviour:
   m_ObjectHideFlags: 0
