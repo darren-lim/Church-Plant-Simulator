@@ -1,1 +1,2 @@
-# Church-Plant-Simulator (WJBS)
+# Church-Plant-Simulator
+in development

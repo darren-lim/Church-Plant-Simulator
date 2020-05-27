@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Event : MonoBehaviour
+public class Event
 {
     public Date eventDate;
-    public float moodBoostVal;
+    public string eventName;
+    public string eventDescription;
+    //public float moodBoostVal;
 
-    public Event(int day, int month, int year, int moodBoost)
+    public Event(int day, int month, int year, string eName, string eDesc)
     {
         eventDate = new Date(month, day, year);
-        moodBoostVal = moodBoost;
+        eventName = eName;
+        eventDescription = eDesc;
+
+        //moodBoostVal = moodBoost;
     }
 
     // Start is called before the first frame update
@@ -25,8 +30,9 @@ public class Event : MonoBehaviour
 
     }
 
-    public string ReturnEventDate()
+
+    public override string ToString()
     {
-        return eventDate.ToString();
+        return eventDate.ToString() + " " + eventName + " " + eventDescription;
     }
 }

@@ -2,18 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *  This script controls the main budgeting system in the game. 
+ */
+
 public class BudgetScript : MonoBehaviour
 {
     [Header("Budget Attributes")]
     public float TotalMoney = 1000f;
     public float WeeklyRevenue = 0f;
     public float BaseWeeklyProfit = 500f;
+    public float TitheProfit = 0f;
     public bool hasBeenBailed = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        GameEvents.instance.onSundayEvent += ResetWeek;
+        GameEvents.instance.onWeekdayStartEvent += ResetWeek;
     }
 
     // Update is called once per frame
@@ -26,7 +31,14 @@ public class BudgetScript : MonoBehaviour
     {
         TotalMoney += money;
         WeeklyRevenue += money;
-        budgetUIUpdate();
+        BudgetUIUpdate();
+    }
+
+    public void AddTithe(float money)
+    {
+        TitheProfit += money;
+        AddMoney(money);
+        Debug.Log("Today's tithe: " + TitheProfit.ToString());
     }
 
     public void SubtractMoney(float money)
@@ -45,27 +57,28 @@ public class BudgetScript : MonoBehaviour
             // game over
         }
 
-        budgetUIUpdate();
+        BudgetUIUpdate();
     }
 
     public void ResetWeek()
     {
         WeeklyRevenue = 0f;
         TotalMoney += BaseWeeklyProfit;
-        budgetUIUpdate();
+        TitheProfit = 0f;
+        BudgetUIUpdate();
     }
 
-    public void budgetUIUpdate()
+    public void BudgetUIUpdate()
     {
         UIManagerScript.instance.UpdateBudget(TotalMoney.ToString());
     }
 
-    public float returnMoney()
+    public float ReturnMoney()
     {
         return TotalMoney;
     }
 
-    public void bailedOut()
+    public void BailedOut()
     {
         hasBeenBailed = true;
     }

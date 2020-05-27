@@ -33,7 +33,8 @@ public class Calendar : MonoBehaviour
     void Start()
     {
         GameEvents.instance.onNextDayEvent += nextDay;
-        currDate = new Date(currentDay, currentMonth, currentYear);
+        currDate = new Date(currentMonth, currentDay, currentYear);
+        Debug.Log("Start Date: " + currDate.ToString());
     }
 
     // Update is called once per frame
@@ -48,7 +49,6 @@ public class Calendar : MonoBehaviour
         currentDay += 1;
         currDate.Day = currentDay;
         dayNum += 1;
-
         if (currDate.Day % 7 == 1)
         {
             newWeek();

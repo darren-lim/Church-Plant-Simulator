@@ -16,11 +16,13 @@ public class CalendarReader : MonoBehaviour
     /// </summary>
     public static string[,] grid;
 
+    public List<Event> events;
+
     // Start is called before the first frame update
     void Start()
     {
-        grid = getCSVGrid(csvFile.text);
-        getValueAtIndex(0, 0);
+        //grid = getCSVGrid(csvFile.text);
+        //getValueAtIndex(0, 2);
     }
 
     // Update is called once per frame
@@ -74,7 +76,7 @@ public class CalendarReader : MonoBehaviour
             }
             textOutput += "\n";
         }
-        Debug.Log(textOutput);
+        // Debug.Log(textOutput);
     }
 
     void getValueAtIndex(int row, int col)
