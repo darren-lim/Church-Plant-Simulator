@@ -11,7 +11,9 @@ public class NPCSpawner : MonoBehaviour
     //Put all of the NPCs here from the inspector, or can add later in code
     public GameObject NPCObject;
     //multiply by list length to store that many NPCs
-    public int EachNPCPoolAmount = 50;
+    public int startVisitorPoolAmount = 10;
+    public int startMemberAmount = 3;
+    public int memberCount = 3;
 
     [Header("NPC List")]
     //pool of NPCs to store in
@@ -42,12 +44,22 @@ public class NPCSpawner : MonoBehaviour
             Debug.LogError("NPC object empty. Fill with NPC.");
             return;
         }
-        for (int k = 0; k < EachNPCPoolAmount; k++)
+        // set visitors
+        for (int k = 0; k < startVisitorPoolAmount; k++)
         {
             GameObject obj = (GameObject)Instantiate(NPCObject);
             obj.SetActive(false);
             VisitorsList.AddLast(obj);
         }
+
+        //set members
+        for (int k = 0; k < startMemberAmount; k++)
+        {
+            GameObject obj = (GameObject)Instantiate(NPCObject);
+            obj.SetActive(false);
+            MembersList.AddLast(obj);
+        }
+
         Debug.Log("All spawned");
     }
     // returns a disabled visitor npc from visitors list.
@@ -76,6 +88,11 @@ public class NPCSpawner : MonoBehaviour
             }
         }
         return null;
+    }
+
+    public int ReturnMemberCount()
+    {
+        return memberCount;
     }
 
     // sets all members active in heirarchy.
@@ -137,22 +154,6 @@ public class NPCSpawner : MonoBehaviour
         LinkedListNode<GameObject> head = VisitorsList.First;
         LinkedListNode<GameObject> temp = null;
         List<GameObject> newMembers = new List<GameObject>();
-        if (head != null && head.Value.activeInHierarchy)
-        {
-            NPC npcScript = head.Value.GetComponent<NPC>();
-            if (npcScript.CalculateComeBackSunday())
-            {
-                if (npcScript.CalculateMemberChance())
-                {
-                    temp = head;
-                    head = head.Next;
-                    newMembers.Add(temp.Value);
-                    VisitorsList.Remove(temp);
-                    MembersList.AddLast(temp);
-                    // add event that this npc became a member
-                }
-            }
-        }
         while (head != null && head.Value.activeInHierarchy)
         {
             NPC npcScript = head.Value.GetComponent<NPC>();
@@ -165,6 +166,7 @@ public class NPCSpawner : MonoBehaviour
                     newMembers.Add(temp.Value);
                     VisitorsList.Remove(temp);
                     MembersList.AddLast(temp);
+                    memberCount++;
                     // add event that this npc became a member
 
                     continue;
@@ -187,30 +189,24 @@ public class NPCSpawner : MonoBehaviour
 
 
     // maybe integrate these to string functions into creation of the npc
-    public string VisitorListToString()
+    // listnum 1 is visitor, evrything else is member
+    public string NPCListToString(int listNum)
     {
+        LinkedList<GameObject> npcList;
+        if (listNum == 1)
+            npcList = VisitorsList;
+        else
+            npcList = MembersList;
         StringBuilder list = new StringBuilder("", 100);
-        foreach (GameObject npc in VisitorsList)
+        foreach (GameObject npc in npcList)
         {
             if (npc != null && npc.activeInHierarchy)
             {
                 list.AppendLine(npc.name);
             }
         }
+        if (list.Length == 0)
+            list.AppendLine("None");
         return list.ToString();
     }
-
-    public string MemberListToString()
-    {
-        StringBuilder list = new StringBuilder("", 100);
-        foreach (GameObject npc in MembersList)
-        {
-            if (npc != null && npc.activeInHierarchy)
-            {
-                list.AppendLine(npc.name);
-            }
-        }
-        return list.ToString();
-    }
-
 }

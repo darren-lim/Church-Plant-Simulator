@@ -3442,7 +3442,6 @@ MonoBehaviour:
   currentDay: 1
   currentMonth: 2
   currentYear: 2014
-  Events: []
   weekNum: 1
   dayNum: 1
   monthNum: 1
@@ -3474,7 +3473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20bd09e9ba03914eab20f5fc4880149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: 30b6482e403c9354c8e89f22b7524fe2, type: 3}
+  csvFile: {fileID: 4900000, guid: 223cb1513a9e6f64491c8a087708eb59, type: 3}
 --- !u!1 &1089546158
 GameObject:
   m_ObjectHideFlags: 0
@@ -7358,15 +7357,20 @@ PrefabInstance:
       propertyPath: movePoints.Array.data[5]
       value: 
       objectReference: {fileID: 835487267}
+    - target: {fileID: 4845681970679513191, guid: 0ac5536c102fe2845949215e07907336,
+        type: 3}
+      propertyPath: rbody
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8335248845797729160, guid: 0ac5536c102fe2845949215e07907336,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.31046677
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: 8335248845797729160, guid: 0ac5536c102fe2845949215e07907336,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5545344
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: 8335248845797729160, guid: 0ac5536c102fe2845949215e07907336,
         type: 3}
@@ -7438,21 +7442,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 633682891}
-    - target: {fileID: 1190242102957578019, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
-        type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1190242102957578019, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 52.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1190242102957578019, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 8739753949854494941, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -7577,6 +7566,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InGameUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739753951041351638, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
+        type: 3}
+      propertyPath: m_text
+      value: '$1000
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8739753951041351638, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8739753951713347572, guid: 4efc6bfda4acebf4ea97b64af3379fa1,
         type: 3}

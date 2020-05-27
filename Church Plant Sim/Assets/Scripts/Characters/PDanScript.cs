@@ -34,7 +34,6 @@ public class PDanScript : Character
     // Update is called once per frame
     void Update()
     {
-
     }
 
     public void UpdateSkill(string skillName, float value)
@@ -75,4 +74,5 @@ public class PDanScript : Character
     {
         return Spirituality;
     }
+
 }

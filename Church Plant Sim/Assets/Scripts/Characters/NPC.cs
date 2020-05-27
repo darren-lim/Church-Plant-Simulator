@@ -30,9 +30,13 @@ public class NPC : Character
 
     [Header("Visitor Attributes")]
     // chance out of 100
-    public float maxChance = 100f;
-    public float chanceToBecomeMember = 50f;
-    public float successfulSundays = 100f;
+    // public float maxChance = 100f;
+    public float chanceToBecomeMember = 0f;
+    public float successfulSundays = 50f;
+    public float addSundayChance = 10f;
+    public float addMemberChance = 20f;
+    public float maxSundayChance = 100f;
+    public float maxMemberChance = 80f;
 
     [Header("Name List")]
     string[] nameComponent1 = new string[] { "Darren", "Jason", "John", "Justin", "Timmy", "Immanuel", "Injea", "Jonathan" };
@@ -43,6 +47,7 @@ public class NPC : Character
     void Awake()
     {
         ServingTeam = "No ST";
+        Shuffle();
     }
 
     // Update is called once per frame
@@ -60,14 +65,7 @@ public class NPC : Character
     // ENABLE WILL BE CALLED FIRST
     private void OnEnable()
     {
-        if(!isMember)
-        {
-            // calculate chancetobecomemember variable and successfulsundays variable
-            chanceToBecomeMember = 50f;
-            successfulSundays = 100f;
-            Shuffle();
-            setLocation();
-        }
+        setLocation();
     }
 
     private void OnDisable()
@@ -115,13 +113,20 @@ public class NPC : Character
      */
     public bool CalculateComeBackSunday()
     {
-        float chance = Random.Range(0, maxChance);
+        // random range is exclusive
+        float chance = Random.Range(0, 101);
         if (chance <= successfulSundays)
         {
+            if(successfulSundays < maxSundayChance)
+                successfulSundays += addSundayChance;
             return true;
         }
         else
+        {
+            // the npc does not return, reset the npc
+            Debug.Log(this.gameObject.name + " has left the church.");
             return false;
+        }
     }
 
     /*
@@ -130,10 +135,16 @@ public class NPC : Character
      */
     public bool CalculateMemberChance()
     {
-        if (Random.Range(0, maxChance) <= chanceToBecomeMember)
+        if (Random.Range(0, 101) <= chanceToBecomeMember)
+        {
             return true;
+        }
         else
+        {
+            if(chanceToBecomeMember < maxMemberChance)
+                chanceToBecomeMember += addMemberChance;
             return false;
+        }
     }
 
     public void BecomeMember()
@@ -155,6 +166,8 @@ public class NPC : Character
         skill = skills[randNum];
         ServingTeam = "No ST";
         // recalculate chancetobecomemember variable and successfulsundays variable
+        chanceToBecomeMember = 0f;
+        successfulSundays = 50f;
     }
 
     public string GenerateName()

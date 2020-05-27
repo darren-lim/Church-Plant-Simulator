@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This class is the base class for all characters in the game.
+ * The main function of this parent class is to provide the child classes with
+ * necessary functions to use as well as variables shared by all character classes.
+ */ 
+
 public class Character : MonoBehaviour
 {
     // change to private later
